@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root {
+    --primary-light-color: #FA9884;
+    --secondary-light-color: #9E9898;
+    --primary-light-text-color: #000000;
+    --secondary-light-text-color: #706C6C;
+}
+
+
+body,
+html
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+}
+
+
+
+.screen {
+  position: relative;
+}
+
+input[type='file']::-webkit-file-upload-button {
+  display: none;
+}
+
+.disable-select {
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none; 
+}

@@ -1,0 +1,81 @@
+.loginPageHeading {
+    width: 266px;
+    height: 88px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.loginPageHeading p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.loginButton {
+    width: 300px;
+    height: 40px;
+    background: var(--primary-light-color);
+    border: 2px solid var(--primary-light-color);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    color: white;
+    background: #e7735c;
+    border: 2px solid #e7735c;
+}
+
+.loginPageForm {
+    width: 300px;
+    height: 88px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.loginInput {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var( --secondary-light-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.loginInput::placeholder{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--secondary-light-text-color);
+}
+
+.loginInput:focus {
+    outline: none;
+    border: 1px solid var(--primary-light-color);
+    border-radius: 5px;
+}
+
+.spinnerWrapper {
+    width:30px;
+    margin: auto;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

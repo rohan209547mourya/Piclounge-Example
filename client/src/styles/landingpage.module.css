@@ -1,0 +1,76 @@
+.loginScreenWrapper {
+    position: relative;
+    width: 100%;
+    min-width: 340px;
+    margin: auto;
+    text-align: center;
+}
+
+.landingHeading {
+    width: 266px;
+    height: 88px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.landingHeading p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loginButton {
+    width: 266px;
+    height: 48px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 2px solid var(--secondary-light-color);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color:#000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.loginButton:hover {
+    cursor: pointer;
+    color: white;
+    background: #e7735c;
+    border: 2px solid #e7735c;
+}
+
+.signupButton {
+
+    width: 266px;
+    height: 48px;
+    background: var(--primary-light-color);
+    border: 2px solid var(--primary-light-color);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.signupButton:hover {
+    cursor: pointer;
+    color: white;
+    background: #e7735c;
+    border: 2px solid #e7735c;
+}

@@ -1,0 +1,8 @@
+.activeLink p { 
+
+    color: var(--primary-light-color);
+}
+
+.activeLink button svg {
+    fill: var(--primary-light-color);
+}

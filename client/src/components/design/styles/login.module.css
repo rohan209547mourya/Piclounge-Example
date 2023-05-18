@@ -1,0 +1,126 @@
+.logoContainer {
+    position: relative;
+    width: 341.7px;
+    height: 333px;
+    background-color: white;
+    margin: auto;
+    top: 40px;
+}
+
+.outterCircle {
+    position: absolute;
+    left: 2.91%;
+    right: 2.55%;
+    top: 2.99%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 2px dashed #9E9898;
+    border-radius: 50%;
+}
+
+.innerCircle{
+    position: absolute;
+    left: 22.18%;
+    right: 21.45%;
+    top: 22.76%;
+    bottom: 19.4%;
+    background: #FFFFFF;
+    border: 2px dashed #C8BFBF;
+    border-radius: 50%;
+}
+
+.imageWrapperCircle {
+    height: 30px;
+    width: 30px;
+}
+
+.imageWrapperCircle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.photo1 {
+    position: absolute;
+    left: 82.18%;
+    right: 1.09%;
+    top: 61.57%;
+    bottom: 29.48%;
+}
+
+
+.photo2 {
+    position: absolute;
+    left: 24.73%;
+    right: 66.55%;
+    top: 84.93%;
+    bottom: 1.12%;
+}
+.photo3 {
+    position: absolute;
+    left: -4.09%;
+    right: 90.18%;
+    top: 32.09%;
+    bottom: 58.96%;
+}
+.photo4 {
+    position: absolute;
+    left: 60.36%;
+    right: 28.91%;
+    top: 1.12%;
+    bottom: 89.93%;
+}
+
+.ellips {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 3px solid var(--secondary-light-color);
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-light-color);
+    overflow: hidden;
+}
+
+.circle1 {
+    position: absolute;
+    left: 69.64%;
+    right: 20.36%;
+    top: 88.43%;
+    bottom: 7.46%;
+}
+.circle2 {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 16.36%;
+    right: 75.64%;
+    top: 10.07%;
+    bottom: 85.82%;
+}
+.circle3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 27.64%;
+    right: 69.45%;
+    top: 68.66%;
+    bottom: 28.36%;
+}
+.circle4 {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 66.91%;
+    right: 30.18%;
+    top: 28.36%;
+    bottom: 68.66%;
+}
